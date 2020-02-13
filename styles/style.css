@@ -1032,11 +1032,11 @@ input[type="submit"] {
 }
 }
 
-@media screen and (min-width: 1800px) {
+/*@media screen and (min-width: 1800px) {
   #section-one > .block-content {
   padding: 350px 17px;
 }
-}
+}*/
 
 @media screen and (max-width: 720px) {
   .layout__left {
