@@ -476,7 +476,7 @@ p .color_bottom {
 #zusatzleistungen {
 	background-image: url('../images/bg/bzusatzleistungen.png');
 	background-color: #9dc3c0;
-	/*width: 100%;*/
+	width: 100%;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -917,10 +917,10 @@ input[type="submit"] {
 
 @media all and (max-width: 768px){
   .gallery-content {
-    width: 700px;
+    width: 650px;
     top: 2%;
-    left: calc(50% - 350px);
-    padding: 17px;
+    left: calc(50% - 325px);
+    padding-top: 17px;
   }
 }
 
@@ -1022,11 +1022,13 @@ input[type="submit"] {
 
 /* section one ;*/
 #section-one {
-  height: calc(100vh - 67px);
   background-position-y: 100%;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1024px) {
+  #section-one {
+    height: calc(100vh - 67px);
+  }
   #section-one > .block-content {
   padding: 45px 17px;
 }
@@ -1045,10 +1047,10 @@ input[type="submit"] {
     font-size: 17px;
   }
   
-  #section-one {
+/*  #section-one {
   height: calc(100vh - 63px);
   
-}
+}*/
   #team-de.block-content {
     padding: 0px!important;
 }
@@ -1067,10 +1069,10 @@ input[type="submit"] {
   }
 }
 
-@media all and (max-width: 375px){
+/*@media all and (max-width: 375px){
   #section-one {
     padding-bottom: 285px;
   }
-}
+}*/
 
 
