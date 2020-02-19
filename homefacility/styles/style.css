@@ -1075,13 +1075,20 @@ input[type="submit"] {
   }
 }*/
 
-@media and (max-width: 370px){
+@media all and (max-width: 370px){
   #zusatzleistungen h1 {
     font-size: 25px;
   }
   #zusatzleistungen .block-content_text {
-    max-width: 310px;
+    max-width: 350px;
   }
 }
 
-
+@media all and (max-width: 350px){
+  #zusatzleistungen .block-content_text {
+    max-width: 320px;
+  }
+  #zusatzleistungen .box-with-bg {
+    padding: 10px;
+  }
+}
