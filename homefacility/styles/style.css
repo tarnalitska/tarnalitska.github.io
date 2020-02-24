@@ -928,11 +928,17 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 720px){
-	.cards-wrapper,
-	.Footer__wrapper {
+
+  .cards-wrapper {
 		flex-direction: column;
 		align-items: center;
 	}
+
+  .Footer__wrapper{
+    flex-direction: column;
+    /*align-items: left;*/
+  }
+
 	.card {
 		max-width: 307px;
 	}
