@@ -478,8 +478,8 @@ p .color_bottom {
 #zusatzleistungen {
 	background-image: url('../images/bg/bzusatzleistungen.png');
 	background-color: #9dc3c0;
-	width: 100%;
-    background-position: center; /* Center the image */
+/*	width: 100%;
+*/    background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     object-fit: cover;
@@ -921,7 +921,7 @@ input[type="submit"] {
 @media all and (max-width: 1100px){
   .gallery-content {
     width: 650px;
-    top: 2%;
+    top: 20%;
     left: calc(50% - 325px);
     padding-top: 17px;
   }
