@@ -1016,7 +1016,7 @@ input[type="submit"] {
 		height: 500px;
 	}
 	.owl-carousel .owl-item .slide-wtih-text {
-		width: 215%;
+		width: 815%;
 	}
 	#section-four .owl-dots {
 		left: calc(50% - 82.5px);
@@ -1097,7 +1097,13 @@ input[type="submit"] {
   #zusatzleistungen .block-content_text {
     max-width: 320px;
   }
-  #zusatzleistungen .box-with-bg {
+  /*#zusatzleistungen */.box-with-bg {
+    padding: 10px;
+  }
+}
+
+@media all and (max-width: 720px){
+  .box-with-bg {
     padding: 10px;
   }
 }
