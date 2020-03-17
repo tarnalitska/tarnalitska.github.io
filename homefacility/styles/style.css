@@ -696,7 +696,7 @@ p .color_bottom {
   	width: 100%;
   	background-color: rgba(0, 0, 0, 0.4);
   	opacity: 0;
-  	visibility: hidden;
+  	display: none;
  	 -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
   	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
  	 transition: opacity 0.3s 0s, visibility 0s 0.3s;
@@ -706,7 +706,7 @@ p .color_bottom {
 
 .cd-popup.is-visible {
   opacity: 1;
-  visibility: visible;
+  display: block;
   -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s;
