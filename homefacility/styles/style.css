@@ -1144,7 +1144,6 @@ input[type="submit"] {
 
 .menu__links-item:hover {
     text-decoration: none;
-    border: 1px solid;
 }
 
 .menu.menu_state_open .menu__icon span:nth-child(1) {
@@ -1182,6 +1181,10 @@ input[type="submit"] {
   .menu a {
     font-size: 13px;
   }
+  .menu__links-item:hover {
+    text-decoration: none;
+    border: 1px solid;
+}
 }
 
 @media screen and (max-width: 1200px) {
