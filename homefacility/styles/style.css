@@ -1094,6 +1094,7 @@ input[type="submit"] {
 .menu a {
     font-family: 'Copperplate', serif;
     font-size: 13px;
+    letter-spacing: 0px;
     color: #805500;
 }
 
