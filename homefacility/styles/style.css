@@ -1088,11 +1088,8 @@ input[type="submit"] {
 }
 
 /* MOBILE menu */
-
-
-
 .menu a {
-    font-family: 'Copperplate', serif;
+    font-family: 'FuturaRegular';
     font-size: 13px;
     letter-spacing: 0px;
     color: #805500;
