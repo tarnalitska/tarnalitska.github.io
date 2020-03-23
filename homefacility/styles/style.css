@@ -1089,9 +1089,9 @@ input[type="submit"] {
 
 /* MOBILE menu */
 .menu a {
-    font-family: 'FuturaRegular';
+    font-family: 'Copperplate', serif;
     font-size: 13px;
-    letter-spacing: 0px;
+    letter-spacing: 0.02px;
     color: #805500;
 }
 
