@@ -34,7 +34,7 @@ body {
 	margin: 0px;
 	padding: 0px;
   box-sizing: border-box;
-    font-family: 'FuturaRegular';
+    font-family: 'FuturaRegular', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -1089,7 +1089,7 @@ input[type="submit"] {
 
 /* MOBILE menu */
 .menu a {
-    font-family: 'FuturaRegular';
+    font-family: 'FuturaRegular', sans-serif;
     font-size: 16px;
     letter-spacing: 1.7px;
     color: #805500;
@@ -1208,7 +1208,7 @@ input[type="submit"] {
   
   .menu__links-item {
     display: block;
-    padding: 10px 0;
+    padding: 6px 0;
     text-align: center;
     color: #ffffff;
   }
